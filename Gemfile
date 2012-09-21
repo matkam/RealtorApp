@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem 'thin'
-gem 'pg', '~> 0.12.2'
+gem 'pg'
 gem 'bootstrap-sass', '2.0.4'
 
 group :development, :test do
