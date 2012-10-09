@@ -2,7 +2,7 @@ module ApplicationHelper
 
   # Returns page title
   def full_title(page_title)
-    base_title = "kamkar.net"
+    base_title = "Kamkar Real Estate"
 
     if page_title.empty?
       base_title
