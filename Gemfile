@@ -3,10 +3,12 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'thin'
 gem 'pg'
-gem 'bootstrap-sass', '2.0.4'
+gem 'bootstrap-sass'
+gem 'jquery-rails'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'rspec-rails', '~> 2.11.0'
 end
 
